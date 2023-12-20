@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div >
-         <header class="  text-white-600 body-font bg-black ">
+         <header class="  text-white-600 body-font bg-transparent fixed w-[100%]  ">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2  rounded-full" viewBox="0 0 24 24">

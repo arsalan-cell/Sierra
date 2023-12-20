@@ -87,7 +87,7 @@ const Footer = () => {
   </div>
   <div class="justify-center bg-white ">
     <div class=" container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="  text-gray-500  ">©Sierra Wordpress Theme.All Rights Reserved.
+      <p class="   text-center text-gray-500  ">©Sierra Wordpress Theme.All Rights Reserved.
         
       </p>
       

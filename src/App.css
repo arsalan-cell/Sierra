@@ -12,6 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+hero_bg
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.hero_bg{
+  background-image: url('https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/09/saas-bg.jpg');
+  /* background-image: url('assests/img.jpeg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
