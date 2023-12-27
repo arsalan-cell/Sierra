@@ -7,10 +7,7 @@ const Footer = () => {
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-400 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-2xl">Sierra</span>
+      <img className='h-25 w-24 ' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/Sierra-sass-dark.svg"></img>
       </a>
       <p class="mt-2 text-sm text-gray-500">From dynamic visuals to interactive features,our software empowers you to craft a website tailored to every need.</p>
     </div>
@@ -87,7 +84,7 @@ const Footer = () => {
   </div>
   <div class="justify-center bg-white ">
     <div class=" container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="   text-center text-gray-500  ">©Sierra Wordpress Theme.All Rights Reserved.
+      <p class="   ml-[450px] text-gray-500  ">©Sierra Wordpress Theme.All Rights Reserved.
         
       </p>
       

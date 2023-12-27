@@ -8,16 +8,19 @@ const Homepage = () => {
    
    <section>
     <div className='min-h-[100vh] border-2 hero_bg'>
-    <div className='absolute text-white text-center mt-40 ml-96 '>
+    <div className='absolute text-white text-center mt-40 ml-80 '>
         <h2 className='text-7xl'><span className="text-green-400">Streamline</span> your projects,</h2>
         <h2 className='text-7xl'>empower your team</h2>
         <h2 className='text-2xl mt-14'>Efficient planning,seamless collaboration, and top-notch</h2>
         <h2 className='text-2xl'>data protection-all in one place</h2>
         <button className="h-12 w-40 mt-10 rounded-2xl inline-flex items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-green-400 text-black  text-base  ">Start free trial
         </button>
-        <p className='absolute mt-16 ml-32'>3-day Free Trial</p>
-        <p className='absolute mt-16 ml-80'>No Credit Card</p>
-        <p className='absolute mt-16 ml-96'>Cancel Anytime</p>
+        <div className='text-center flex ' >
+        <p className=' mt-16 ml-56 '>3-day Free Trial</p>
+        <p className=' mt-16 ml-9 '>No Credit Card</p>
+        <p className=' mt-16 ml-10 '>Cancel Anytime</p>
+        </div>
+        
     </div>
     </div>
 
@@ -189,12 +192,107 @@ const Homepage = () => {
 </section>
 
 </div>
-<div className='text-white'>
-    <p className='text-4xl '>stripe asana Google Spotify Trustpilot</p>
+<div className='text-gray-400 flex gap-36 mt-14 text-4xl ml-28'>
+    <p className=''>Stripe</p>
+    <p className=''>asana</p>
+    <p className=''>Google</p>
+    <p className=''>Spotify</p>
+    <p className=''>Trustpilot</p>
   </div>
+    </div>
+
+<div>
+
+<section class="text-gray-600 body-font  ">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col  w-full mb-20">
+      <p>Flexible pricing</p>
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Flexible <span className='text-green-400'>Pricing</span>  to suit every need</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Enjoy a range of features designed to enhance your project</p>
+      <p>management experience,all at a price that fits your budget</p>
+     
+    </div>
    
-   
-   </div>
+    <div class="flex flex-wrap -m-4 ml-0  ">
+      <div class="p-4 xl:w-1/3  w-full ">
+        <div class=" bg-gray-100 h-full  rounded-lg  ">
+          <p className='mb-5 text-gray-100'>.</p>
+         <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Personal</p>
+         <p className='mb-5  text-black ml-10 text-left'>Task management,collaboration tools,and basic reporting</p>
+         <p className='mb-5  text-black ml-10 text-left'>Efficient organization and streamlined communication</p>
+         <p className='mb-5 text-black ml-10 text-left'>Users can manage up to 5 projects</p>
+        
+         <h1 class="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+         <span class="text-lg ml-1 font-normal text-black">$</span>
+            <span>19</span>
+            <span class="text-lg ml-1 font-normal text-black">/month</span>
+          </h1>    
+         <button className="h-14 w-80 mt-8 mb-6 rounded-2xl  bg-white hover:bg-indigo-400  text-black">Purchase now</button>   
+         
+        </div>
+      </div>
+
+      <div class="p-4 xl:w-1/3 md:w-1/2 w-full ">
+        <div class="bg-gray-100 h-full  rounded-lg  ">
+         
+        <p className='mb-5 text-gray-100'>.</p>
+         <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Professional</p>
+         <p className='mb-5 text-black ml-10 text-left'>Advanced reporting,priority support,and customization options</p>
+         <p className='mb-5 text-black ml-10 text-left'>Better insights,tailored workflows,and enhanced collaboration</p>
+         <p className='mb-5 text-black ml-10 text-left'>Users can manage up to 15 projects</p>
+         
+         <h1 class="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+         <span class="text-lg ml-1 font-normal text-black">$</span>
+            <span>49</span>
+            <span class="text-lg ml-1 font-normal text-black">/month</span>
+          </h1>    
+         <button className="h-14 w-80 mt-8 rounded-2xl  bg-green-400 hover:bg-indigo-400  text-black">Purchase now</button>   
+         
+          
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/3 md:w-1/2 w-full ">
+        <div class="bg-gray-100 h-full  rounded-lg ">
+        <p className='mb-5 text-gray-100'>.</p>
+         <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Enterprise</p>
+         <p className='mb-5 text-black ml-10 text-left'>Real-time analytics, a dedicated account manager,and API access</p>
+         <p className='mb-5 text-black ml-10 text-left'>Project management capabilities and strategic decision-making</p>
+         <p className='mb-5 text-black ml-10 text-left'>Users can manage unlimited projects</p>
+         <h1 class="text-3xl text-gray-900 ml-10 text-left leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+         <span class="text-lg ml-1 font-normal text-black">$</span>
+            <span>99</span>
+            <span class="text-lg ml-1 font-normal text-black">/month</span>
+          </h1>     
+         <button className="h-14 w-80 mt-8 rounded-2xl  bg-white hover:bg-indigo-400  text-black">Purchase now</button>   
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<div className='h-screen w-screen bg-gray-100'>
+<section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className='font-bold text-black'>Transforming teamwork</h1>
+      <h1 className="  sm:text-4xl text-3xl mb-4 font-large text-gray-900">Join <span className='text-green-400'>4000+</span>
+        <br className="hidden lg:inline-block"/>businesses in our <br className="hidden lg:inline-block"/>community 
+      </h1>
+       <p>Discover how various industry teams  <br className="hidden lg:inline-block"/>benefit from our software,optimizing</p>
+      <div className="flex justify-center mt-6">
+        <button className="h-12 w-40 mt-10 rounded-2xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Discover More</button>
+        
+      </div>
+    </div>
+    <div className=" bg-black lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img className=" bg-black bg-center object-center rounded" alt="hero" src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-10.png"/>
+    </div>
+  </div>
+</section>
+</div>
    </section>
 
    
