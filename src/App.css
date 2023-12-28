@@ -48,3 +48,19 @@ hero_bg
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.a{
+  font-size: 60px;
+}
+.b{
+  font-size: 18px;
+}
+.c{
+  font-size: 16px;
+}
+.d{
+  font-size: 20px;
+}
+.e{
+  line-height: 70px;
+}

@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { BsBriefcase } from "react-icons/bs";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
 const Homepage = () => {
@@ -8,28 +11,38 @@ const Homepage = () => {
    
    <section>
     <div className='min-h-[100vh] border-2 hero_bg'>
-    <div className='absolute text-white text-center mt-40 ml-80 '>
-        <h2 className='text-7xl'><span className="text-green-400">Streamline</span> your projects,</h2>
-        <h2 className='text-7xl'>empower your team</h2>
-        <h2 className='text-2xl mt-14'>Efficient planning,seamless collaboration, and top-notch</h2>
-        <h2 className='text-2xl'>data protection-all in one place</h2>
-        <button className="h-12 w-40 mt-10 rounded-2xl inline-flex items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-green-400 text-black  text-base  ">Start free trial
-        </button>
+    <div className='absolute text-white text-center mt-40 ml-96 '>
+       <div className='e'> <h2 className='a'><span className="text-green-400">Streamline</span> your projects,</h2>
+        <h2 className='a '>empower your team</h2> </div>
+       <div className='e'> <h2 className='b '>Efficient planning,seamless collaboration, and top-notch</h2> </div>
+        <h2 className='b'>data protection-all in one place</h2> 
+      <button className=" c h-14 w-48 mt-10 rounded-3xl  items-center  bg-white border-0 py-1 px-3 focus:outline-none hover:bg-green-400 text-black  text-base  ">Start free trial 
+        </button> 
         <div className='text-center flex ' >
-        <p className=' mt-16 ml-56 '>3-day Free Trial</p>
-        <p className=' mt-16 ml-9 '>No Credit Card</p>
-        <p className=' mt-16 ml-10 '>Cancel Anytime</p>
+        <p className='  mt-12 ml-32 flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span> 3-day Free Trial</p> 
+        <p className=' mt-12 ml-4  flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span>No Credit Card</p>
+        <p className=' mt-12 ml-4  flex gap-2'> <span className='text-green-400'><FaRegCheckCircle /></span>Cancel Anytime</p>
         </div>
         
     </div>
     </div>
-
-   
-   
    
    
     
-    <div className='h-screen w-screen bg-slate-100'>
+    <div className=' bg-slate-100'>
+      <div className='flex gap-5 ml-32 mr-32'>
+
+      <div className=''> <img className='rounded-2xl ' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-3.png"/></div>
+      <div className='flex flex-col gap-5  '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-6.png"/>
+            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png"/>
+      </div>
+      <div className='flex flex-col gap-5  '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png"/>
+            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-5.png"/>
+      </div>
+      <div> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-9.png"/></div>
+      </div>
+   
+   
     <section className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
@@ -274,22 +287,50 @@ const Homepage = () => {
 
 
 <div className='h-screen w-screen bg-gray-100'>
-<section className="text-gray-600 body-font">
-  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+<section className="text-gray-600 body-font ">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col  ">
+    <div className="mt-20 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className='font-bold text-black'>Transforming teamwork</h1>
-      <h1 className="  sm:text-4xl text-3xl mb-4 font-large text-gray-900">Join <span className='text-green-400'>4000+</span>
+      <h1 className="  sm:text-4xl  mb-4 font-large text-gray-900">Join <span className='text-green-400'>4000+</span>
         <br className="hidden lg:inline-block"/>businesses in our <br className="hidden lg:inline-block"/>community 
       </h1>
-       <p>Discover how various industry teams  <br className="hidden lg:inline-block"/>benefit from our software,optimizing</p>
+       <p>Discover how various industry teams  <br className="hidden lg:inline-block"/>benefit from our software,optimizing<br className="hidden lg:inline-block"/>their workflows,and improving efficiency.</p>
       <div className="flex justify-center mt-6">
         <button className="h-12 w-40 mt-10 rounded-2xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Discover More</button>
         
       </div>
     </div>
-    <div className=" bg-black lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className=" bg-black bg-center object-center rounded" alt="hero" src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-10.png"/>
-    </div>
+  <div className='flex-row mt-20 ml-32'>
+          <div className='flex'>
+          <div className=' mb-80 mr-20 '>
+           <p className=' text-left font-bold'> Marketing teams</p>
+           <p className='text-left text-gray-400'>Enhance campaign planning,collaboration,and performance tracking</p>
+            </div>
+          <div>
+           <p className='text-left font-bold'>Project management</p>
+           <p className='text-left text-gray-400'>Stremline task assignment progress tracking, and resource allocation</p> 
+            </div>
+          </div>
+          
+
+       <div className='flex'>
+       <div className=' mb-72 mr-24'>
+      <p className=''><BsBriefcase /></p> 
+       <p className='text-left font-bold'>Strategic planning</p>
+       <p className='text-left text-gray-400'>Facilitate data-driven decision-making,scenario analysis,and goal tracking.</p>
+
+        </div>
+       <div>
+       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" className="text-indigo-500 hover:text-green-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+          </svg>
+        <p className='text-left font-bold'>Operation teams</p>
+        <p className='text-left text-gray-400'>Optimize process automation,documentation,and communication.</p>
+        </div>
+        </div>   
+         
+  </div>
   </div>
 </section>
 </div>
