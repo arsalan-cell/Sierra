@@ -1,12 +1,13 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 import { FaRegCheckCircle } from "react-icons/fa";
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { PiChatsDuotone } from "react-icons/pi";
 import { FcCheckmark } from "react-icons/fc";
+import { FcCollapse } from "react-icons/fc";
 
 
 const Homepage = () => {
+const [show,setShow]=useState(true)
 
     
   return (
@@ -34,14 +35,14 @@ const Homepage = () => {
     <div className=' bg-slate-100' >
       <div className='flex gap-5 ml-32 mr-32  '>
 
-      <div className='mt-[-72px]'> <img className='rounded-2xl ' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-3.png "/></div>
-      <div className='flex flex-col gap-5 mt-[-100px]  '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-6.png"/>
-            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png"/>
+      <div className='mt-[-72px]'> <  img className='rounded-2xl ' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-3.png "alt="1"/></div>
+      <div className='flex flex-col gap-5 mt-[-100px]  '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-6.png" alt="6"/>
+            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png" alt="2"/>
       </div>
-      <div className='flex flex-col gap-5 mt-[-100px] '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png"/>
-            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-5.png"/>
+      <div className='flex flex-col gap-5 mt-[-100px] '> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-7.png" alt="3"/>
+            <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-5.png" alt="4"/>
       </div>
-      <div className='mt-[-72px]'> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-9.png"/></div>
+      <div className='mt-[-72px]'> <img className='rounded-2xl' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/sass-widget-9.png" alt="5"/></div>
       </div>
    
    
@@ -289,13 +290,14 @@ const Homepage = () => {
   <div className="container mx-auto flex  py-24 md:flex-row flex-col  ">
     <div className="mt-20  flex flex-col md:items-start md:text-left ">
       <h1 className=' text-black'>Transforming teamwork</h1>
-      <h1 className="mt-4 f  sm:text-4xl  mb-4  text-black">Join <span className='text-green-400'>4000+</span>
+      <h1 className="mt-4 f  sm:text-4xl    text-black">Join <span className='text-green-400'>4000+</span>
        <br/> businesses in our community 
       </h1>
+     
       
-       <p className='b text-gray-400'>Discover how various industry teams  <br className="hidden lg:inline-block"/>benefit from our software,optimizing<br className="hidden lg:inline-block"/>their workflows,and improving efficiency.</p>
+       <p className='b mt-4 text-gray-400'>Discover how various industry teams  <br className="hidden lg:inline-block"/>benefit from our software,optimizing<br className="hidden lg:inline-block"/>their workflows,and improving efficiency.</p>
       <div className="flex justify-center mt-6">
-        <button className="h-12 w-40 mt-10 rounded-2xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Discover More</button>
+        <button className="h-14 items-center  w-48 mt-6 rounded-3xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-400 text-white ">Discover More</button>
         
       </div>
     </div>
@@ -339,6 +341,135 @@ const Homepage = () => {
   </div>
   </div>
 </section>
+</div>
+
+<div>
+<div class="flex flex-col  w-full mb-20">
+      <p className='c mt-24'>12,000+ Happy Clients</p>
+      <h1 class=" f mt-6 sm:text-4xl font-medium title-font mb-2 text-gray-900">Success <span className='text-green-400'>stories</span> from our customers</h1>
+      <p className=" b mt-6 lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">The best way to showcase our commitment is through the experiences</p>
+      <p className='b text-gray-500'>and stories of those who have partnered with us</p>
+     
+    </div>
+</div>
+
+
+<div className='bg-gray-100'>
+<div class="flex flex-col  w-full mb-20">
+      <p className='c mt-24'>We've got answers</p>
+      <h1 class=" f mt-6 sm:text-4xl font-medium title-font mb-2 text-gray-900">Your <span className='text-green-400'>questions</span> answered</h1>
+      <p className=" b mt-6 lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">If you're new or looking for answers to your questions, this guide will</p>
+      <p className='b text-gray-500'>help you learn more about our services and their features.</p>
+       
+       <div className=''>
+      <div className='flex h-16  mt-14 gap-6 '>
+        <div className='bg-white w-[600px] rounded-2xl ml-32'>
+          <p className='mr-80 mt-5'>1.Is there a free trial available?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            {
+              
+              show?<h1>Yes, you can try us for free for 30 days. If you want, we'll provide you with a free 30-minute onboarding call to get you up and running.</h1>:null
+              
+            }
+           
+          </div>
+           
+          
+        </div>
+      
+       <div className='bg-white w-[600px] rounded-2xl '>
+          <p className='mr-80 mt-5'>4.Can other info be added to an invoice?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            { 
+              show?<h1>At the moment, the only way to add additional information to invoices is to add the information to the workspace's name manually.</h1>:null
+            }
+          </div>
+        </div>
+          </div> 
+
+   <div className='flex h-16  mt-12 gap-6'>
+        <div className='bg-white w-[600px]  rounded-2xl ml-32'>
+          <p className='mr-80  mt-5'>2.Can I change my plan later?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            { 
+              show?<h1>Of course you can! Our pricing scales with your company. Chat to our friendly team to find a solution that works for you as you grow.</h1>:null
+            }
+          </div>
+        </div>
+        <div className='bg-white w-[600px] rounded-2xl'>
+          <p className='mr-80 mt-5'>5.How does billing work?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            { 
+              show?<h1>Plans are per workspace, not per account. You can upgrade one workspace, and still have any number of free workspaces.</h1>:null
+            }
+          </div>
+        </div>
+          </div>
+
+     <div className='flex h-16 mt-12 gap-6 mb-20 '>
+        <div className='bg-white w-[600px] rounded-2xl ml-32 ' >
+          <p className='mr-80 mt-5'>3.What is your cancellation policy?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            { 
+              show?<h1>We understand that things change. You can cancel your plan at any time and we'll refund you the difference already paid.</h1>:null
+            }
+          </div>
+          </div>
+  
+        <div className='bg-white w-[600px] rounded-2xl text-center'>
+          <p className='mr-80 mt-5'>6.How do I change my account email?</p>
+          <div >
+          <p className="mt-0"onClick={()=>setShow(!show)}><FcCollapse /></p>
+            { 
+              show?<h1>You can change the email address associated with your account by going to untitled.com/account from a laptop or desktop.</h1>:null
+            }
+          </div>
+          </div>
+        </div> 
+     </div>
+    </div>
+   
+   
+    <div className='min-h-[75vh]  hero_bg'>
+    <div>
+      <p className='c  text-white'>Launch with ease</p>
+      <p className='f mt-20 text-white'>Ready to <span className='text-green-400'>get started</span>?</p>
+      <p className='f text-white'>Start your free trial now</p>
+      <p className='b text-white'>Elevate sales and stay ahead in the competitive market by being </p>
+      <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
+      <div className='flex gap-2 '>
+        
+        <button className=" ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial 
+        </button> 
+        <button className=" c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work 
+        </button> 
+      </div>
+    </div>
+   </div>
+
+ <div className='flex'>
+  <div className=' bg-white flex'>
+    <p className='text-gray-400'>Terms</p>
+    <p className='text-gray-400'>Pricing</p>
+    <p className='text-gray-400'>Help</p>
+    <p className='text-gray-400'>Contact</p>
+
+  </div>
+  <div className='flex text-right bg-white gap-2'>
+  <button className=" c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Facebook
+        </button>
+        <button className=" c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Twitter 
+        </button>
+        <button className=" c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Instagram
+        </button>
+  </div>
+ </div>
+ 
 </div>
    </section>
 
