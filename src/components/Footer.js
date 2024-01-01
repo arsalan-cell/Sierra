@@ -9,7 +9,7 @@ const Footer = () => {
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <img className='h-25 w-24 ' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/Sierra-sass-dark.svg"></img>
       </a>
-      <p class="mt-2 text-sm text-gray-500">From dynamic visuals to interactive features,our software empowers you to craft a website tailored to every need.</p>
+      <p class="mt-5 text-sm text-gray-500">From dynamic visuals to interactive features,our software empowers you to craft a website tailored to every need.</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">

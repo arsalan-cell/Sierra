@@ -5,8 +5,8 @@ import { FiMenu } from "react-icons/fi";
 const Navbar = () => {
   return (
     <div >
-         <header class="  text-white body-font bg-transparent fixed w-[100%]  ">
-  <div class="container mx-auto flex flex-wrap p-7 flex-col md:flex-row items-center">
+         <header class="  text-white body-font bg-black fixed w-[100%]  ">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
       
       <img className='h-25 w-28' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/09/sierra-logo-white.svg"></img>

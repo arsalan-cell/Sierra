@@ -68,4 +68,7 @@ hero_bg
   font-size: 48px;
 }
 
-
+.g{
+  text-align: center;
+  display: flex;
+}
