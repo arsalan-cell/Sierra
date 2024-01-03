@@ -1,4 +1,6 @@
-import React from 'react'
+
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { CiSearch } from "react-icons/ci";
 import { FiMenu } from "react-icons/fi";
 
@@ -13,10 +15,10 @@ const Navbar = () => {
       
     </a>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a class=" c mr-8  text-white hover:text-green-400">Features</a>
-      <a class=" c mr-8  text-white hover:text-green-400">Pricing</a>
-      <a class=" c mr-8  text-white hover:text-green-400">Help</a>
-      <a class=" c mr-8  text-white hover:text-green-400">Contact</a>
+      <Link to="/feature" className=" c mr-8  text-white hover:text-green-400">Features</Link>
+      <Link to="/price" className=" c mr-8  text-white hover:text-green-400">Pricing</Link>
+      <Link to="/help" className=" c mr-8  text-white hover:text-green-400">Help</Link>
+      <Link to="/contact" className=" c mr-8  text-white hover:text-green-400">Contact</Link>
       <a class=" d mr-8  text-white hover:text-green-400"><CiSearch /></a>
       <a class=" d mr-8  text-white hover:text-green-400"><FiMenu /></a>
       

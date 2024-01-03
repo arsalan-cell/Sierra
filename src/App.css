@@ -72,3 +72,19 @@ hero_bg
   text-align: center;
   display: flex;
 }
+.h{
+  line-height: 50px;
+}
+.i{
+  border-radius: 0 0 15% 15%;
+}
+.j{
+  background-image:url('https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/10/portrait-woman.jpg');
+  /* background-image: url('assests/img.jpeg'); */
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.k{
+ font-size: 34px; 
+}
