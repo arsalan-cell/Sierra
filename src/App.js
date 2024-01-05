@@ -7,14 +7,15 @@ import Feature from "./components/Feature";
 import Price from "./components/Price";
 import Contact from "./components/Contact";
 import Help from "./components/Help";
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
       <div className="App">
         <Navbar />
-       
+        <ScrollToTop/>
           <Routes>
+          
             <Route  path="/" element={<Homepage />} />
             <Route  path="/feature" element={<Feature />} />
             <Route path="/price" element={<Price/>}/>

@@ -9,11 +9,11 @@ const Navbar = () => {
     <div >
          <header class="  text-white body-font bg-black fixed w-[100%]  ">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+    <Link to="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
       
       <img className='h-25 w-28' src="https://sierra.keydesign.xyz/saas/wp-content/uploads/sites/3/2023/09/sierra-logo-white.svg"></img>
       
-    </a>
+    </Link>
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <Link to="/feature" className=" c mr-8  text-white hover:text-green-400">Features</Link>
       <Link to="/price" className=" c mr-8  text-white hover:text-green-400">Pricing</Link>

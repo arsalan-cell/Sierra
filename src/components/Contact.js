@@ -131,9 +131,9 @@ const Contact = () => {
             <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
             <div className='flex gap-2 '>
 
-              <button className="flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
+              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
               </button>
-              <button className="flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
+              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
               </button>
             </div>
           </div>
@@ -142,18 +142,18 @@ const Contact = () => {
 
     <div className='flex bg-white border-2 '>
           <div className=' ml-28 flex gap-4 mt-10 mb-10'>
-            <p className='text-gray-400'>Terms</p>
-            <p className='text-gray-400'>Pricing</p>
-            <p className='text-gray-400'>Help</p>
-            <p className='text-gray-400'>Contact</p>
+            <p className='text-gray-400 hover:text-green-400'>Terms</p>
+            <p className='text-gray-400 hover:text-green-400'>Pricing</p>
+            <p className='text-gray-400 hover:text-green-400'>Help</p>
+            <p className='text-gray-400 hover:text-green-400'>Contact</p>
 
           </div>
           <div className='flex  bg-white gap-2 ml-[600px]'>
-            <button className=" gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
+            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
             </button>
-            <button className=" gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
+            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
             </button>
-            <span className='g'><button className=" gap-2 
+            <span className='g'><button className=" l gap-2 
             inline-flex 
             c h-8 w-32 mt-10 rounded-3xl 
                bg-green-400 border-0 py-1 px-3 

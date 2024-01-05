@@ -15,14 +15,22 @@ import { IoMdArrowDroprightCircle } from "react-icons/io";
 
 
 const Homepage = () => {
-  const [show, setShow] = useState(true)
+  
+  const [open1,setOpen1] = useState(false)
+  const [open2,setOpen2] = useState(false)
+  const [open3,setOpen3] = useState(false)
+  const [open4,setOpen4] = useState(false)
+  const [open5,setOpen5] = useState(false)
+  const [open6,setOpen6] = useState(false)
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1
-
+    slidesToScroll: 1,
+    
+    
   };
   const data = [
     {
@@ -66,7 +74,7 @@ const Homepage = () => {
 
     <section>
       <div className='min-h-[100vh] border-2 hero_bg'>
-        <div className='absolute text-white text-center mt-40 ml-96 '>
+        <div className=' text-white text-center mt-40 ml-18 '>
           <div className='e'> <h2 className='a'><span className="text-green-400">Streamline</span> your projects,</h2>
             <h2 className='a '>empower your team</h2> </div>
           <div className='e'> <h2 className='b '>Efficient planning,seamless collaboration, and top-notch</h2> </div>
@@ -74,15 +82,15 @@ const Homepage = () => {
           <button className=" c h-14 w-48 mt-10 rounded-3xl  items-center  bg-white border-0 py-1 px-3 focus:outline-none hover:bg-green-400 text-black  text-base  ">Start free trial
           </button>
           <div className='text-center flex ' >
-            <p className='  mt-12 ml-32 flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span> 3-day Free Trial</p>
-            <p className=' mt-12 ml-4  flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span>No Credit Card</p>
-            <p className=' mt-12 ml-4  flex gap-2'> <span className='text-green-400'><FaRegCheckCircle /></span>Cancel Anytime</p>
+            <p className=' l mt-12 ml-[500px] flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span> 3-day Free Trial</p>
+            <p className=' l mt-12 ml-4  flex gap-2 '> <span className='text-green-400'><FaRegCheckCircle /></span>No Credit Card</p>
+            <p className=' l mt-12 ml-4  flex gap-2'> <span className='text-green-400'><FaRegCheckCircle /></span>Cancel Anytime</p>
           </div>
 
         </div>
       </div>
 
-
+ 
 
       <div className=' bg-slate-100' >
         <div className='flex gap-5 ml-32 mr-32  '>
@@ -161,7 +169,7 @@ const Homepage = () => {
               <p className='b  text-black gap-2 flex'><FcCheckmark />Resource optimization</p>
               <p className='b  text-black gap-2 flex'><FcCheckmark />Prediction analytics</p>
               <div className="flex justify-center mt-6">
-                <button className="gap-2 h-12 w-40 mt-6 rounded-3xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Learn More <FaRegArrowAltCircleRight /></button>
+                <button className="l gap-2 h-12 w-40 mt-6 rounded-3xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Learn More <FaRegArrowAltCircleRight /></button>
 
               </div>
             </div>
@@ -188,7 +196,7 @@ const Homepage = () => {
               <p className='b text-black gap-2 flex'><FcCheckmark />Task prioritization</p>
               <p className='b text-black gap-2 flex'><FcCheckmark />Notification system</p>
               <div className="flex justify-center mt-6">
-                <button className=" gap-2 h-12 w-40 mt-6 rounded-3xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Learn More<FaRegArrowAltCircleRight /></button>
+                <button className=" l gap-2 h-12 w-40 mt-6 rounded-3xl inline-flex text-black bg-green-400  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-white ">Learn More<FaRegArrowAltCircleRight /></button>
 
               </div>
             </div>
@@ -405,17 +413,17 @@ const Homepage = () => {
 
           <div className='w-3/4 m-auto '>
             <div className='mt-20 '>
-              <Slider {...settings}>
+              <Slider  {...settings}>
                 {data.map((e) => {
                   return (
                     <div className=''>
-                      <div className=' bg-gray-100 h-56  justify-center items-center rounded-2xl'>
-                        <p className=' text-gray-500 '>{e.description}</p>
-                        <img className=' ml-36 bg-gray-100 h-10 w-20' src='/star.png' alt="hlo" />
+                      <div className='bg-gray-100  py-5  h-56   justify-center items-center rounded-2xl'>
+                        <p className=' text-gray-500 ml-5 mr-5   '>{e.description}</p>
+                        <img className=' ml-36 bg-gray-100 h-10 w-20 py-2 ' src='/star.png' alt="hlo" />
 
                       </div>
-
-                      <p className=' mt-[-20px] mb-10 ml-40 h-14  w-14 rounded-full border-4  '> <img src={e.img} alt="my-img" /></p>
+                      
+                      <p className=' mt-[-20px] mb-10 ml-40 h-14  w-14 rounded-full border-4  '> <img className='rounded-full' src={e.img} alt="my-img" /></p>
                       <div className=' flex flex-col justify-center items-center '>
 
                         <p className='text-1xl'>{e.name}</p>
@@ -430,6 +438,9 @@ const Homepage = () => {
       </div>
 
 
+
+
+
       <div className='bg-gray-100'>
         <div className="flex flex-col  w-full mb-20">
           <p className='c mt-24'>We've got answers</p>
@@ -439,73 +450,84 @@ const Homepage = () => {
 
           <div className=''>
             <div className='flex h-16  mt-14 gap-6 '>
-              <div className='bg-white w-[600px] rounded-2xl ml-32'>
+            <div className='bg-white w-[600px] rounded-2xl ml-32'>
                 <p className='mr-80 mt-5'>1.Is there a free trial available?</p>
+                <p className='px-[550px] mt-[-15px]' onClick={() => setOpen1(!open1)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-
-                    show ? <h1>Yes, you can try us for free for 30 days. If you want, we'll provide you with a free 30-minute onboarding call to get you up and running.</h1> : null
-
-                  }
+                 
+                  {open1 && (
+                     <div>
+                     <h1 className='mt-5 text-gray-500' >Yes, you can try us for free for 30 days. If you want, we'll provide you with a free 30-minute onboarding call to get you up and running.</h1> 
+                      </div>
+                  )}
 
                 </div>
-
 
               </div>
 
               <div className='bg-white w-[600px] rounded-2xl '>
                 <p className='mr-80 mt-5'>4.Can other info be added to an invoice?</p>
+                <p className='px-[550px] mt-[-40px]' onClick={() => setOpen4(!open4)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-                    show ? <h1>At the moment, the only way to add additional information to invoices is to add the information to the workspace's name manually.</h1> : null
-                  }
+                  
+                  { open4 && (
+                  <h1 className='mt-5 text-gray-500'>At the moment, the only way to add additional information to invoices is to add the information to the workspace's name manually.</h1> 
+                 ) }
                 </div>
               </div>
             </div>
 
             <div className='flex h-16  mt-12 gap-6'>
-              <div className='bg-white w-[600px]  rounded-2xl ml-32'>
+            <div className='bg-white w-[600px]  rounded-2xl ml-32'>
                 <p className='mr-80  mt-5'>2.Can I change my plan later?</p>
+                <p className="px-[550px] mt-[-15px]" onClick={() => setOpen2(!open2)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-                    show ? <h1>Of course you can! Our pricing scales with your company. Chat to our friendly team to find a solution that works for you as you grow.</h1> : null
-                  }
+                  
+                  { open2 && (
+                     <h1 className='mt-5 text-gray-500'>Of course you can! Our pricing scales with your company. Chat to our friendly team to find a solution that works for you as you grow.</h1> 
+                  )}
                 </div>
               </div>
+             
               <div className='bg-white w-[600px] rounded-2xl'>
                 <p className='mr-80 mt-5'>5.How does billing work?</p>
+                <p className='px-[550px] mt-[-20px]' onClick={() => setOpen5(!open5)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-                    show ? <h1>Plans are per workspace, not per account. You can upgrade one workspace, and still have any number of free workspaces.</h1> : null
-                  }
+                  
+                  {open5 && (
+                     <h1 className='mt-5 text-gray-500'>Plans are per workspace, not per account. You can upgrade one workspace, and still have any number of free workspaces.</h1> 
+                  )}
                 </div>
               </div>
+             
+             
             </div>
 
             <div className='flex h-16 mt-12 gap-6 mb-20 '>
-              <div className='bg-white w-[600px] rounded-2xl ml-32 ' >
+            <div className='bg-white w-[600px] rounded-2xl ml-32 ' >
                 <p className='mr-80 mt-5'>3.What is your cancellation policy?</p>
+                <p className='px-[550px] mt-[-15px]' onClick={() => setOpen3(!open3)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-                    show ? <h1>We understand that things change. You can cancel your plan at any time and we'll refund you the difference already paid.</h1> : null
-                  }
+                
+                  {open3 && (
+                     <h1 className='mt-5 text-gray-500'>We understand that things change. You can cancel your plan at any time and we'll refund you the difference already paid.</h1> 
+                  )}
                 </div>
               </div>
 
               <div className='bg-white w-[600px] rounded-2xl text-center'>
                 <p className='mr-80 mt-5'>6.How do I change my account email?</p>
+                <p className='px-[550px] mt-[-40px]' onClick={() => setOpen6(!open6)}><FcCollapse /></p>
                 <div >
-                  <p className="mt-0" onClick={() => setShow(!show)}><FcCollapse /></p>
-                  {
-                    show ? <h1>You can change the email address associated with your account by going to untitled.com/account from a laptop or desktop.</h1> : null
-                  }
+                 
+                  {open6 && (
+                     <h1 className='mt-5 text-gray-500'>You can change the email address associated with your account by going to untitled.com/account from a laptop or desktop.</h1> 
+                 
+
+                 ) }
                 </div>
               </div>
+             
             </div>
           </div>
         </div>
@@ -520,9 +542,9 @@ const Homepage = () => {
             <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
             <div className='flex gap-2 '>
 
-              <button className="flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
+              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
               </button>
-              <button className="flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
+              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
               </button>
             </div>
           </div>
@@ -530,18 +552,18 @@ const Homepage = () => {
 
         <div className='flex bg-white border-2 '>
           <div className=' ml-28 flex gap-4 mt-10 mb-10'>
-            <p className='text-gray-400'>Terms</p>
-            <p className='text-gray-400'>Pricing</p>
-            <p className='text-gray-400'>Help</p>
-            <p className='text-gray-400'>Contact</p>
+            <p className='text-gray-400 hover:text-green-400'>Terms</p>
+            <p className='text-gray-400 hover:text-green-400'>Pricing</p>
+            <p className='text-gray-400 hover:text-green-400'>Help</p>
+            <p className='text-gray-400 hover:text-green-400'>Contact</p>
 
           </div>
           <div className='flex  bg-white gap-2 ml-[600px]'>
-            <button className=" gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
+            <button className=" l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
             </button>
-            <button className=" gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
+            <button className=" l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
             </button>
-            <span className='g'><button className=" gap-2 
+            <span className='g'><button className="l gap-2 
             inline-flex 
             c h-8 w-32 mt-10 rounded-3xl 
                bg-green-400 border-0 py-1 px-3 

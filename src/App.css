@@ -88,3 +88,10 @@ hero_bg
 .k{
  font-size: 34px; 
 }
+.l{
+  display: flex;
+  align-items: center;
+}
+
+.slick-dots li.slick-active button:before {
+  color:green !important;}
