@@ -55,7 +55,7 @@ const Contact = () => {
     <div className="   text-center">
               <div className="p-28 md:w-1/3  w-full flex gap-28 ">
                 <div className=" rounded-lg flex gap-5">
-                  <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+                  <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
                   <div className=''>
@@ -65,7 +65,7 @@ const Contact = () => {
                  
                 </div>
                 <div className=" rounded-lg flex gap-5">
-                  <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+                  <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
                   <div className=''>
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
 
                 <div className=" rounded-lg flex gap-5">
-                  <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+                  <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
                   <div className=''>
@@ -125,15 +125,15 @@ const Contact = () => {
     <div className='min-h-[75vh]  hero_bg'>
           <div className='pt-20'>
             <p className='c mt-10 text-white '>Launch with ease</p>
-            <p className='f  text-white'>Ready to <span className='text-green-400'>get started</span>?</p>
+            <p className='f  text-white'>Ready to get started?</p>
             <p className='f text-white'>Start your free trial now</p>
             <p className='b text-white'>Elevate sales and stay ahead in the competitive market by being </p>
             <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
             <div className='flex gap-2 '>
 
-              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
+              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
               </button>
-              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
+              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
               </button>
             </div>
           </div>
@@ -149,15 +149,15 @@ const Contact = () => {
 
           </div>
           <div className='flex  bg-white gap-2 ml-[600px]'>
-            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
+            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaFacebookF />Facebook
             </button>
-            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
+            <button className="l  gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaTwitter />Twitter
             </button>
             <span className='g'><button className=" l gap-2 
             inline-flex 
             c h-8 w-32 mt-10 rounded-3xl 
                bg-green-400 border-0 py-1 px-3 
-               focus:outline-none hover:bg-indigo-400
+               focus:outline-none hover:bg-violet-500 hover:text-white
                 text-black  text-base  "><FaInstagram /><p>Instagram</p>
             </button></span>
           </div>

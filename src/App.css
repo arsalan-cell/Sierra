@@ -83,7 +83,7 @@ hero_bg
   /* background-image: url('assests/img.jpeg'); */
   /*background-size: cover;*/
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 .k{
  font-size: 34px; 

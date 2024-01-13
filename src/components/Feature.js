@@ -34,7 +34,7 @@ const Feature = () => {
                 <h1 className=' f h text-left text-black'>strategy</h1>
                 <p className='text-left mt-5 c text-gray-500'>Visualize data,track sales,and analyze customer</p>
                 <p className='c text-left text-gray-500'>behavior ,empowering you to make dacisions.</p>
-                <div className='text-left'><button className=" gap-2 h-16 items-center  w-48 mt-6 rounded-3xl inline-flex text-black bg-green-400 py-2 px-6  hover:bg-indigo-400">Learn More<FaRegArrowAltCircleRight /></button></div>
+                <div className='text-left'><button className=" gap-2 h-16 items-center  w-48 mt-6 rounded-3xl inline-flex text-black bg-green-400  py-2 px-6  hover:bg-violet-500 hover:text-white">Learn More<FaRegArrowAltCircleRight /></button></div>
                 
                 <div className=' flex ' >
             <p className=' l mt-12  flex gap-2 text-gray-500 '> <span className='text-green-400'><FaRegCheckCircle /></span> Flexible solution</p>
@@ -146,8 +146,8 @@ const Feature = () => {
     <div class="flex flex-wrap -m-4">
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border bg-white p-6 rounded-lg">
-          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-violet-500 mb-4">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -157,8 +157,8 @@ const Feature = () => {
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border bg-white p-6 rounded-lg">
-          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-violet-500 mb-4">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -168,8 +168,8 @@ const Feature = () => {
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border bg-white p-6 rounded-lg">
-          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-violet-500 mb-4">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -179,8 +179,8 @@ const Feature = () => {
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border bg-white p-6 rounded-lg">
-          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-violet-500 text-violet-500 mb-4">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -190,8 +190,8 @@ const Feature = () => {
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border bg-white p-6 rounded-lg">
-          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class="mt-8 w-20  inline-flex items-center justify-center rounded-full bg-violet-500 text-violet-500 mb-4">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -201,8 +201,8 @@ const Feature = () => {
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4 ">
         <div class="border bg-white p-6 rounded-lg ">
-          <div class=" mt-8 mb-4 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 ">
-          <svg className="text-white h-20  w-48 rounded-xl  bg-indigo-400 hover:bg-green-400  " viewBox="0 0 20 15">
+          <div class=" mt-8 mb-4 w-20  inline-flex items-center justify-center rounded-full bg-indigo-100 text-violet-500 ">
+          <svg className="text-white h-20  w-48 rounded-xl  bg-violet-500 hover:bg-green-400  " viewBox="0 0 20 15">
                     <PiChatsDuotone />
                   </svg>
           </div>
@@ -219,15 +219,15 @@ const Feature = () => {
         <div className='min-h-[75vh]  hero_bg'>
           <div className='pt-20'>
             <p className='c mt-10 text-white '>Launch with ease</p>
-            <p className='f  text-white'>Ready to <span className='text-green-400'>get started</span>?</p>
-            <p className='f text-white'>Start your free trial now</p>
-            <p className='b text-white'>Elevate sales and stay ahead in the competitive market by being </p>
-            <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
+            <p className='f  text-white'>Seize the opportunity-</p>
+            <p className='f text-white'><span className='text-green-400'>empower</span>your business</p>
+            <p className='b text-white'>Experience the ease of automation,the power of analytics,and the </p>
+            <p className='b text-white'>impact of seamless integration.Your journey begins now!</p>
             <div className='flex gap-2 '>
 
-              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
+              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
               </button>
-              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
+              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
               </button>
             </div>
           </div>
@@ -243,15 +243,15 @@ const Feature = () => {
 
           </div>
           <div className='flex  bg-white gap-2 ml-[600px]'>
-            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
+            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaFacebookF />Facebook
             </button>
-            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
+            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaTwitter />Twitter
             </button>
             <span className='g'><button className="l gap-2 
             inline-flex 
             c h-8 w-32 mt-10 rounded-3xl 
                bg-green-400 border-0 py-1 px-3 
-               focus:outline-none hover:bg-indigo-400
+               focus:outline-none hover:bg-violet-500 hover:text-white
                 text-black  text-base  "><FaInstagram /><p>Instagram</p>
             </button></span>
           </div>

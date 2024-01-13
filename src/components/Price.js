@@ -30,40 +30,40 @@ const Price = () => {
       </div>
     </div>
 
-    <div className="flex flex-wrap -m-4 ml-0  ">
+    <div className="flex flex-wrap -m-4  ml-32 mr-32 mt-[-250px]">
               <div className="p-4 xl:w-1/3  w-full ">
                 <div className=" bg-gray-100 h-full  rounded-lg  ">
                   <p className='mb-5 text-gray-100'>.</p>
-                  <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Personal</p>
-                  <p className='mb-5  text-black ml-10 text-left'>Task management,collaboration tools,and basic reporting</p>
-                  <p className='mb-5  text-black ml-10 text-left'>Efficient organization and streamlined communication</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Users can manage up to 5 projects</p>
-
-                  <h1 className="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                  <h1 className="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 ">
                     <span className="text-lg ml-1 font-normal text-black">$</span>
-                    <span>19</span>
+                    <span className='text-5xl'>29</span>
                     <span className="text-lg ml-1 font-normal text-black">/month</span>
                   </h1>
-                  <button className="h-14 w-80 mt-8 mb-6 rounded-2xl  bg-white hover:bg-indigo-400  text-black">Purchase now</button>
+                  <p className='text-xl text-black ml-10 text-left font-bold  mb-5'>Standard</p>
+                  <p className='mb-5  text-gray-400 ml-10 text-left '>For individuals and small teams trying out for an unlimited period.</p>
+                 
+
+                 
+                  <button className="h-14 w-80 mt-8 mb-6 rounded-2xl  bg-green-400 hover:bg-black hover:text-white  text-black">Get started</button>
 
                 </div>
               </div>
 
               <div className="p-4 xl:w-1/3 md:w-1/2 w-full ">
-                <div className="bg-gray-100 h-full  rounded-lg  ">
+                <div className="bg-violet-500 h-full  rounded-lg  ">
 
                   <p className='mb-5 text-gray-100'>.</p>
-                  <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Professional</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Advanced reporting,priority support,and customization options</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Better insights,tailored workflows,and enhanced collaboration</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Users can manage up to 15 projects</p>
-
-                  <h1 className="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                  <h1 className="text-3xl ml-10 text-left text-gray-900 leading-none flex items-center pb-4 mb-4 ">
                     <span className="text-lg ml-1 font-normal text-black">$</span>
-                    <span>49</span>
+                    <span className='text-5xl'>49</span>
                     <span className="text-lg ml-1 font-normal text-black">/month</span>
                   </h1>
-                  <button className="h-14 w-80 mt-8 rounded-2xl  bg-green-400 hover:bg-indigo-400  text-black">Purchase now</button>
+                  <p className='text-xl text-black ml-10 text-left font-bold  mb-5'>Professional</p>
+                  <p className='mb-5 text-black ml-10 text-left'>For individual account executives who <br/>want increased productivity.</p>
+                 
+
+                 
+                  <button className="h-14 w-80 mt-8 rounded-2xl  bg-white hover:bg-black hover:text-white  text-black">Get started</button>
 
 
                 </div>
@@ -71,16 +71,16 @@ const Price = () => {
               <div className="p-4 xl:w-1/3 md:w-1/2 w-full ">
                 <div className="bg-gray-100 h-full  rounded-lg ">
                   <p className='mb-5 text-gray-100'>.</p>
-                  <p className='text-3xl text-black ml-10 text-left font-bold  mb-5'>Enterprise</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Real-time analytics, a dedicated account manager,and API access</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Project management capabilities and strategic decision-making</p>
-                  <p className='mb-5 text-black ml-10 text-left'>Users can manage unlimited projects</p>
-                  <h1 className="text-3xl text-gray-900 ml-10 text-left leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                  <h1 className="text-3xl text-gray-900 ml-10 text-left leading-none flex items-center pb-4 mb-4 ">
                     <span className="text-lg ml-1 font-normal text-black">$</span>
-                    <span>99</span>
+                    <span className='text-5xl'>99</span>
                     <span className="text-lg ml-1 font-normal text-black">/month</span>
                   </h1>
-                  <button className="h-14 w-80 mt-8 rounded-2xl  bg-white hover:bg-indigo-400  text-black">Purchase now</button>
+                  <p className='text-xl text-black ml-10 text-left font-bold  mb-5'>Enterprise</p>
+                  <p className='mb-5 text-gray-400 ml-10 text-left'>For medium and large sales organizations with advanced needs.</p>
+                 
+                 
+                  <button className="h-14 w-80 mt-8 rounded-2xl  bg-green-400 hover:bg-black hover:text-white  text-black">Get started</button>
 
                 </div>
               </div>
@@ -184,18 +184,18 @@ const Price = () => {
 
 
 
-        <div className='min-h-[75vh]  hero_bg'>
+        <div className='min-h-[75vh]  hero_bg '>
           <div className='pt-20'>
             <p className='c mt-10 text-white '>Launch with ease</p>
-            <p className='f  text-white'>Ready to <span className='text-green-400'>get started</span>?</p>
-            <p className='f text-white'>Start your free trial now</p>
-            <p className='b text-white'>Elevate sales and stay ahead in the competitive market by being </p>
-            <p className='b text-white'>among the first to benefit from our game-changing solutions.</p>
+            <p className='f  text-white'>Ready to get started?</p>
+            <p className='f text-white'>Take the <span className='text-green-400'>next step</span></p>
+            <p className='b text-white'>Experience unparalleled service,cutting-edge technology,and </p>
+            <p className='b text-white'>dedicated support-start your journey today.</p>
             <div className='flex gap-2 '>
 
-              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
+              <button className="l flex gap-3 ml-[550px] c h-14 w-48 mt-10 rounded-3xl    bg-green-400 border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">Start free trial<FaRegArrowAltCircleRight />
               </button>
-              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-indigo-400 text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
+              <button className="l flex gap-3 c h-14 w-48 mt-10 rounded-3xl    bg-white border-0 py-3 px-6 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  ">How its work<IoMdArrowDroprightCircle />
               </button>
             </div>
           </div>
@@ -212,15 +212,15 @@ const Price = () => {
 
           </div>
           <div className='flex  bg-white gap-2 ml-[600px]'>
-            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaFacebookF />Facebook
+            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaFacebookF />Facebook
             </button>
-            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-400 text-black  text-base  "><FaTwitter />Twitter
+            <button className="l gap-2 flex c h-8 w-32 mt-10 rounded-3xl    bg-green-400 border-0 py-1 px-3 focus:outline-none hover:bg-violet-500 hover:text-white text-black  text-base  "><FaTwitter />Twitter
             </button>
             <span className='g'><button className="l gap-2 
             inline-flex 
             c h-8 w-32 mt-10 rounded-3xl 
                bg-green-400 border-0 py-1 px-3 
-               focus:outline-none hover:bg-indigo-400
+               focus:outline-none hover:bg-violet-500 hover:text-white
                 text-black  text-base  "><FaInstagram /><p>Instagram</p>
             </button></span>
           </div>
